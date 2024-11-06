@@ -19,5 +19,6 @@ public class StreamStartMain1 {
         System.out.println(fis.read());
         System.out.println(fis.read());
         fis.close();
+
     }
 }

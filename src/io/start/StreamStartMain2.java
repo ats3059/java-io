@@ -14,11 +14,9 @@ public class StreamStartMain2 {
         fos.close();
 
         FileInputStream fis = new FileInputStream("temp/hello.dat");
-
         int data;
-        while ((data = fis.read()) != -1) {
+        while((data = fis.read()) != -1){
             System.out.println(data);
         }
-        fis.close();
     }
 }
